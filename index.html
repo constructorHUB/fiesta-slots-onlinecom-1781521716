@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <script src="./index.js"></script>
+    <script src="./common.js"></script>
+
+    <link rel="manifest" href="./manifest.json">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2">
+    <link rel="preload" as="image" href="_assets/images/1781520821-logo.svg" fetchpriority="high">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./index.css">
+    <meta name="theme-color" content="">
+    <title>Fiesta Slots Casino – Online Slots, Live Casino, and Premium Gaming</title>
+    <meta name="description"
+          content="Discover Fiesta Slots Casino and enjoy a modern gaming experience with slot machines, live casino games, secure payments, mobile compatibility, and exciting player promotions.">
+    <link rel="canonical" href="https://fiesta-slots-online.com">
+    <meta property="og:title" content="Fiesta Slots Casino – Online Slots, Live Casino, and Premium Gaming">
+    <meta property="og:description"
+          content="Discover Fiesta Slots Casino and enjoy a modern gaming experience with slot machines, live casino games, secure payments, mobile compatibility, and exciting player promotions.">
+    <meta property="og:url" content="https://fiesta-slots-online.com">
+    <meta property="og:site_name" content="Fiesta Slots Casino – Online Slots, Live Casino, and Premium Gaming">
+    <meta property="og:locale" content="en">
+    <meta property="og:image" content="_assets/images/1781520705-main.webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="fiesta-slots-online.com">
+    <meta name="twitter:title" content="Fiesta Slots Casino – Online Slots, Live Casino, and Premium Gaming">
+    <meta name="twitter:description"
+          content="Discover Fiesta Slots Casino and enjoy a modern gaming experience with slot machines, live casino games, secure payments, mobile compatibility, and exciting player promotions.">
+    <meta name="twitter:image" content="_assets/images/1781520705-main.webp">
+    <meta name="twitter:image:width" content="1200">
+    <meta name="twitter:image:height" content="630">
+    <link rel="icon" href="_assets/images/1781520711-favicon.svg" type="image/x-icon" sizes="16x16">
+    <meta name="language" content="en">
+    <link rel="apple-touch-icon" href="_assets/images/1781520696-favicon.svg" sizes="96x96">
+    <link rel="icon" href="_assets/images/1781520696-favicon.svg" type="image/webp" sizes="192x192">
+
+    <link rel="preload" href="_assets/images/1781520843-main.webp" as="image" fetchpriority="high">
+
+</head>
+
+<body>
+<svg
+        style="display: none"
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 256 256"
+>
+    <symbol id="minus-icon" viewBox="0 0 256 256">
+        <path
+                fill="#000c2c"
+                d="M228 128a12 12 0 0 1-12 12H40a12 12 0 0 1 0-24h176a12 12 0 0 1 12 12"
+        />
+    </symbol>
+</svg>
+
+<svg
+        style="display: none"
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 32 32"
+>
+    <symbol id="globe-icon" viewBox="0 0 32 32">
+        <path
+                fill="#FADB26"
+                d="M32.032 16c0-8.501-6.677-15.472-15.072-15.969-0.173-0.019-0.346-0.032-0.523-0.032-0.052 0-0.104 0.005-0.156 0.007-0.093-0.002-0.186-0.007-0.281-0.007-8.84 0-16.032 7.178-16.032 16.001s7.192 16.001 16.032 16.001c0.094 0 0.188-0.006 0.281-0.008 0.052 0.002 0.104 0.008 0.156 0.008 0.176 0 0.349-0.012 0.523-0.032 8.395-0.497 15.072-7.468 15.072-15.969zM29.049 21.151c-0.551-0.16-1.935-0.507-4.377-0.794 0.202-1.381 0.313-2.84 0.313-4.357 0-1.196-0.069-2.354-0.197-3.469 3.094-0.37 4.45-0.835 4.54-0.867l-0.372-1.050c0.695 1.659 1.080 3.478 1.080 5.386 0 1.818-0.352 3.555-0.987 5.151zM8.921 16c0-1.119 0.074-2.212 0.21-3.263 1.621 0.127 3.561 0.222 5.839 0.243v6.939c-2.219 0.021-4.114 0.111-5.709 0.234-0.22-1.319-0.34-2.715-0.34-4.154zM16.967 2.132c2.452 0.711 4.552 4.115 5.492 8.628-1.512 0.12-3.332 0.209-5.492 0.229v-8.857zM14.971 2.156v8.832c-2.136-0.021-3.965-0.109-5.502-0.226 0.96-4.457 3.076-7.836 5.502-8.606zM14.971 21.913l0 7.929c-2.263-0.718-4.256-3.705-5.293-7.719 1.492-0.11 3.253-0.189 5.292-0.21zM16.967 29.868l-0-7.955c2.061 0.020 3.814 0.102 5.288 0.217-1.019 4.067-3 7.076-5.288 7.738zM16.967 19.92l0-6.939c2.291-0.021 4.218-0.118 5.818-0.25 0.131 1.053 0.203 2.147 0.203 3.268 0 1.442-0.116 2.84-0.329 4.16-1.575-0.128-3.462-0.219-5.692-0.24zM28.588 9.81c-0.302 0.094-1.564 0.453-4.094 0.751-0.564-2.998-1.584-5.561-2.91-7.412 3.048 1.325 5.535 3.697 7.005 6.661zM11.213 2.831c-1.632 1.873-2.963 4.568-3.691 7.754-2.265-0.245-3.623-0.534-4.166-0.665 1.585-3.27 4.407-5.836 7.856-7.088zM2.614 11.787c0.385 0.104 1.841 0.467 4.549 0.766-0.155 1.107-0.24 2.26-0.24 3.447 0 1.509 0.136 2.96 0.383 4.334-2.325 0.251-3.755 0.552-4.396 0.706-0.607-1.566-0.944-3.264-0.944-5.041 0-1.467 0.228-2.883 0.649-4.213zM3.784 22.886c0.727-0.154 2.029-0.39 3.956-0.591 0.759 2.803 1.993 5.175 3.473 6.874-3.16-1.148-5.79-3.398-7.429-6.282v0zM21.583 28.849c1.195-1.665 2.14-3.907 2.728-6.525 1.982 0.227 3.226 0.494 3.853 0.652-1.5 2.596-3.808 4.669-6.581 5.873z">
+        </path>
+    </symbol>
+</svg>
+
+<svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="star-icon" viewBox="0 0 32 31">
+        <path d="M10.0431 24.5932L15.8898 21.0667L21.7365 24.6396L20.2052 17.9577L25.3559 13.5031L18.5811 12.8999L15.8898 6.58913L13.1985 12.8535L6.42371 13.4567L11.5744 17.9577L10.0431 24.5932ZM15.8898 25.4285L8.187 30.0687C7.84672 30.2853 7.49096 30.3781 7.11975 30.3471C6.74853 30.3162 6.42371 30.1925 6.1453 29.9759C5.86688 29.7594 5.65034 29.489 5.49566 29.1648C5.34099 28.8406 5.31005 28.4768 5.40286 28.0734L7.44456 19.3034L0.623417 13.4103C0.314068 13.1319 0.121034 12.8145 0.0443157 12.4581C-0.0324028 12.1017 -0.00951111 11.754 0.112991 11.415C0.235493 11.0759 0.421103 10.7975 0.669819 10.5797C0.918536 10.362 1.25882 10.2227 1.69067 10.1621L10.6927 9.37327L14.1729 1.11366C14.3276 0.742438 14.5676 0.464023 14.8931 0.278414C15.2185 0.0928044 15.5507 0 15.8898 0C16.2288 0 16.5611 0.0928044 16.8865 0.278414C17.2119 0.464023 17.452 0.742438 17.6067 1.11366L21.0869 9.37327L30.0889 10.1621C30.522 10.224 30.8623 10.3632 31.1098 10.5797C31.3572 10.7963 31.5428 11.0747 31.6666 11.415C31.7903 11.7553 31.8138 12.1036 31.7371 12.46C31.6604 12.8163 31.4667 13.1331 31.1562 13.4103L24.335 19.3034L26.3767 28.0734C26.4695 28.4756 26.4386 28.8394 26.2839 29.1648C26.1292 29.4902 25.9127 29.7606 25.6343 29.9759C25.3559 30.1912 25.0311 30.315 24.6598 30.3471C24.2886 30.3793 23.9329 30.2865 23.5926 30.0687L15.8898 25.4285Z" fill="#FADB26"/>
+    </symbol>
+</svg>
+
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 256 256"
+>
+    <symbol id="plus-icon" viewBox="0 0 256 256">
+        <path
+                fill="#000c2c"
+                d="M228 128a12 12 0 0 1-12 12h-76v76a12 12 0 0 1-24 0v-76H40a12 12 0 0 1 0-24h76V40a12 12 0 0 1 24 0v76h76a12 12 0 0 1 12 12"
+        />
+    </symbol>
+</svg>
+
+<svg
+        width="33"
+        height="32"
+        viewBox="0 0 33 32"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <symbol id="play-icon" viewBox="0 0 33 32">
+        <path
+                d="M16.8334 0.0786133C7.9606 0.0786133 0.767578 7.20678 0.767578 15.9998C0.767578 24.7929 7.9606 31.921 16.8334 31.921C25.7061 31.921 32.8992 24.7929 32.8992 15.9998C32.8992 7.20678 25.7061 0.0786133 16.8334 0.0786133ZM22.3861 16.8438L14.3532 21.8192C14.1907 21.9197 14.0059 21.9703 13.821 21.9703C13.6536 21.9703 13.4859 21.929 13.3342 21.8454C13.015 21.67 12.8169 21.3372 12.8169 20.9752V11.0244C12.8169 10.6625 13.015 10.3296 13.3342 10.1543C13.6533 9.97788 14.0436 9.98857 14.3532 10.1805L22.3861 15.1559C22.6796 15.3381 22.858 15.6568 22.858 15.9998C22.858 16.3428 22.6796 16.6616 22.3861 16.8438Z"
+                fill="#FADB26"
+        />
+    </symbol>
+</svg>
+
+<svg
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <symbol id="information-outline" viewBox="0 0 20 20">
+        <path
+                d="M9 7H11V5H9V7ZM10 18C5.59 18 2 14.41 2 10C2 5.59 5.59 2 10 2C14.41 2 18 5.59 18 10C18 14.41 14.41 18 10 18ZM10 0C8.68678 0 7.38642 0.258658 6.17317 0.761205C4.95991 1.26375 3.85752 2.00035 2.92893 2.92893C1.05357 4.8043 0 7.34784 0 10C0 12.6522 1.05357 15.1957 2.92893 17.0711C3.85752 17.9997 4.95991 18.7362 6.17317 19.2388C7.38642 19.7413 8.68678 20 10 20C12.6522 20 15.1957 18.9464 17.0711 17.0711C18.9464 15.1957 20 12.6522 20 10C20 8.68678 19.7413 7.38642 19.2388 6.17317C18.7362 4.95991 17.9997 3.85752 17.0711 2.92893C16.1425 2.00035 15.0401 1.26375 13.8268 0.761205C12.6136 0.258658 11.3132 0 10 0ZM9 15H11V9H9V15Z"
+                fill="#ffffff"
+        />
+    </symbol>
+</svg>
+
+<div class="wrapper">
+
+    <header class="header" id="top">
+        <div class="headerBlock">
+
+            <!-- Logo -->
+            <div class="headerLogoContainer">
+                <a href="https://fiesta-slots-online.com" aria-label="Main page">
+                    <img
+                            class="header__logo logo"
+                            src="_assets/images/1781520821-logo.svg"
+                            alt="Fiesta Slots"
+                    />
+                </a>
+            </div>
+
+            <div class="navBlockMain">
+
+            <!-- Main Navigation -->
+            <nav>
+                <button class="hamburger" aria-label="Toggle navigation menu">
+                    <span></span>
+                </button>
+
+                <ul class="nav__list nav__list--header">
+
+                    <li><a href="index">index</a></li>
+                    <li><a href="app">App</a></li>
+                    <li><a href="bonuses">Bonuses</a></li>
+                    <li><a href="terms">Terms</a></li>
+                    <li><a href="privacy">Privacy</a></li>
+                    <li><a href="faq">FAQ</a></li>
+
+                </ul>
+            </nav>
+                <!-- CTA buttons -->
+                <div class="btn__list">
+<!--                    <div class="nav__item">-->
+<!--                        <a-->
+<!--                                class="nav__link"-->
+<!--                                target="_blank"-->
+<!--                                href="casino.html?id=example-offer-id"-->
+<!--                                aria-label=""-->
+<!--                                id="navSignUp"-->
+<!--                        >-->
+<!--                            -->
+<!--                        </a>-->
+<!--                    </div>-->
+
+                    <div class="nav__item nav__itemLarge">
+                        <a
+                                class="nav__link nav__linkLarge"
+                                target="_blank"
+                                href="casino.html?id=example-offer-id"
+                                aria-label="Play Now"
+                                id="navPlayNow"
+                        >
+                            Play Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <main class="main">
+        <section class="heroContainer">
+            <div class="hero">
+                <div class="heroBlock block">
+                    <div class="heroGroup">
+                        <div class="heroTextGroup">
+                            <p class="heroText heroTextDesktop">Exclusive welcome offer of</p>
+                            <p class="heroText heroTextMobile">Exclusive welcome bonus of</p>
+                            <p class="heroText heroTextBonus" id="bonusText"></p>
+                        </div><a target="_blank" class="heroLink" id="bonusLink" href="/" aria-label="Play game"><span
+                            class="heroButton btn btn--large">Claim Bonus</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="heroUnder">
+                <h1 class="heroText heroMainTitle">Fiesta Slots Casino – The Ultimate Destination for Online Slot Entertainment</h1>
+            </div>
+        </section>
+        <div class="bonusesCircleContainer">
+            <section class="topCasino">
+                <div class="container">
+                    <div class="topCasinoBlock block">
+                        <h2 class="topCasinoTitle title"><span>Top Casinos <span id="countryName"></span></span>
+                        </h2>
+                        <div class="topCasinoGroup" id="casinoCardContainer">
+                            <!-- Casino cards will be dynamically inserted here --></div><button
+                            class="topCasinoButton btn btn--large" id="showMoreButton"> All Casino </button>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <div class="advantagesCircleContainer">
+            <section class="advantages">
+                <div class="container">
+                    <div class="advantagesBlock block">
+                        <div class="advantagesDescription">
+                            <h2 class="advantagesTitle title">Advantages</h2>
+                            <ul class="advantagesList">
+                                <li class="providersGroup"></li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Mobile Gaming</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Fast Payments</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Live Casino</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Secure Platform</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Jackpot Slots</p>
+                                </li>
+                                <li class="providersGroup"></li>
+                            </ul><a class="advantagesLink" id="advantagesLink" target="_blank" href="/" aria-label="Know more"><span
+                                class="advantagesButton btn btn--large">Know more</span></a>
+                        </div>
+                        <div class="advantagesMobile">
+                            <h2 class="advantagesTitle title advantagesAppTitle">Fiesta Slots Mobile App</h2><img
+                                class="advantagesMobilePhone" src="_assets/images/1781521228-mobil.webp" title="Fiesta Slots Mobile"
+                                alt="Fiesta Slots Mobile App" />
+                            <div class="advantagesStoreGroup"><a href="/" id="appStoreLink" aria-label="Play game"
+                                                                 target="_blank"><img class="advantagesStore" width="181" height="53"
+                                                                                      src="./assets/images/advantages/app-store.webp" alt="iOs App " title="Fiesta Slots Mobile App"/></a><a
+                                    href="/" id="googlePlayLink" aria-label="Play game" target="_blank"><img
+                                    class="advantagesStore" width="181" height="54"
+                                    src="./assets/images/advantages/google-play.webp" alt="android App Fiesta Slots Mobile App" title="Fiesta Slots Mobile App" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="games" id="games">
+                <div class="container">
+                    <div class="gamesBlock block">
+                        <h2 class="gamesTitle title"><span>Popular Games</span></h2>
+                        <div class="gamesGroup" id="gamesContainer"><!-- Games will be dynamically inserted here -->
+                        </div><a target="_blank" class="gamesLink" id="allGamesLink" href="/" aria-label="All Games"><span
+                            class="gamesButton btn btn--large">All Games</span></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">About the Casino</h2>
+                        <div class="historyGroup">
+                            <div class="historyColumn">
+                                <div class="historyText">
+                                    <p class="historyDescription">At Fiesta Slots, we are dedicated to providing an exciting online casino experience focused on entertainment, accessibility, and player satisfaction. Our platform brings together a wide range of casino games in a modern environment designed to deliver smooth gameplay and easy navigation for both new and experienced players.</p>
+                                    <ul class="historyList">
+                                        <li class="historyItem">Fiesta Slots specializes in online slot entertainment.</li>
+                                        <li class="historyItem">The platform is optimized for desktop and mobile devices.</li>
+                                        <li class="historyItem">Live casino games are available alongside slot titles.</li>
+                                    </ul>
+                                    <p class="historyDescription">Our guests can explore an extensive collection of slot games featuring diverse themes, engaging mechanics, and exciting bonus features. Alongside traditional slot entertainment, we also offer live casino experiences and classic table games that create a dynamic and immersive gaming atmosphere.</p>
+                                </div>
+                            </div>
+                            <div class="historyColumn"><img class="historyImage"
+                                                            src="_assets/images/1781521275-desktop.webp" alt="Fiesta Slots" title="Fiesta Slots Desktop"/></div>
+                        </div>
+                        <p class="historyDescription">We understand the importance of convenience in modern online gaming. That is why our casino is fully optimized for mobile devices, allowing our guests to access their favorite games anytime and anywhere using compatible Android and iOS smartphones and tablets.
+
+Security remains one of our highest priorities. We use advanced SSL encryption technology to help protect personal information and financial transactions. Combined with reliable payment solutions and dedicated customer support, our platform is designed to provide a safe and enjoyable experience for every guest.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">Fiesta Slots Casino: 24/7 Online Slots, Live Casino and Sportsbook Entertainment</h2>
+                        <div class="historyDescription">
+<p>
+Fiesta Slots Casino is our colorful online casino built around the energy of a real celebration. We bring together 8,000+ casino games, a full live dealer floor and a complete sportsbook in one account. Our atmosphere is bright, fast and player-focused, with slots, jackpots, table games, live shows, sports markets and promotions available around the clock. Players can enjoy Fiesta Slots Casino from desktop or mobile without waiting for physical opening hours. Instead of traditional bars and hotels, we offer digital entertainment zones such as the live casino floor, tournament area, bonus hub, sportsbook and VIP rewards space. Our live casino includes roulette, blackjack, baccarat and game show formats with real dealers. Slot fans can explore classic reels, modern video slots, bonus features and jackpot titles. Sports players can move between football, tennis, basketball, esports, racing and live betting markets. New players may claim a welcome package with up to 250% bonus value and up to 1,000 free spins during active promotions. Regular players can enjoy reload bonuses, cashback, tournaments, free spins drops and personalized offers.
+</p>
+<br>
+<div style="width:100%; max-width:100%; overflow:hidden;">
+  <table style="width:100%; max-width:100%; border-collapse:collapse; table-layout:fixed; font-family:Arial, sans-serif; font-size:clamp(9px, 2.2vw, 14px); color:#ffffff; background:transparent;">
+    <tr>
+      <th style="width:38%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Zone</th>
+      <th style="width:62%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Days and Hours</th>
+    </tr>
+    <tr><td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Slots and jackpot games</td><td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Daily, 24/7</td></tr>
+    <tr><td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Live casino floor</td><td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Daily, 24/7</td></tr>
+    <tr><td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Table games</td><td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Daily, 24/7</td></tr>
+    <tr><td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Crash and instant games</td><td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Daily, 24/7</td></tr>
+    <tr><td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Sportsbook and live betting</td><td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Daily, according to event schedules</td></tr>
+    <tr><td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Tournaments and promotions</td><td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Daily or during active campaigns</td></tr>
+  </table>
+</div>
+<br>
+<h3 style = "font-weight: bold;font-size: 32px;">
+Fiesta Slots Casino Support, Languages, Payments and Withdrawals
+</h3>
+<p>
+At Fiesta Slots Casino, we build support around clarity, speed and player confidence. Our team assists with registration, login, verification, deposits, withdrawals, bonus rules, game access, sportsbook questions and responsible gaming tools. Players can use digital support channels to get help with the casino lobby, live dealer floor, cashier, promotions and account settings. We focus on practical answers that make every next step easy to understand.
+</p>
+<p>
+Fiesta Slots Casino is designed for an international online audience, so the platform structure is clear and easy to follow. Players can move between the cashier, bonus hub, live casino, sportsbook, tournaments and account tools without confusion. Key instructions for deposits, payouts, verification and promotion activation are available through the account environment. This helps both new and experienced players enjoy the casino with confidence.
+</p>
+<p>
+Our cashier supports popular online payment options shown inside the player account. Depending on availability, these may include bank cards, bank transfers, e-wallets, local payment solutions and selected crypto-friendly methods. Physical ATMs and currency exchange counters are not needed because all transactions are handled digitally through the protected cashier. Account currency, payment limits and processing times may vary by method and profile status.
+</p>
+<p>
+Withdrawals are requested from the account cashier after selecting an available payout option. For security, we may request identity, address or payment-method verification before processing funds. In many cases, payouts are made to the same or compatible method used for deposits. Tax treatment depends on the player’s personal situation and applicable rules, so individual professional guidance may be useful when clarification is needed.
+</p>
+<br>
+<h3 style = "font-weight: bold;font-size: 32px;">
+Fiesta Slots Casino Access Rules, Player Guidelines and Online Entry
+</h3>
+<p>
+Fiesta Slots Casino operates online, so our access rules are focused on secure account use and fair platform activity. Players can visit our casino from a mobile phone, tablet or desktop. No dress code is required because all entertainment is available digitally. Registration requires meeting the required age conditions and providing accurate personal information. We ask players to use one personal account and keep access details private. Payment methods should belong to the account holder so deposits and withdrawals can be handled correctly. Verification helps protect balances, winnings and personal data. Multiple accounts, bonus misuse, fraudulent activity and attempts to bypass rules are not allowed. Parking and travel are not required because Fiesta Slots Casino is available online 24/7. Players can log in, open the cashier, choose a bonus or game and start playing within minutes.
+</p>
+<br>
+<h3 style = "font-weight: bold; font-size: 24px;">Access Conditions</h3>
+<ul>
+<li>• Create a personal Fiesta Slots Casino account.</li>
+<li>• Provide accurate profile information.</li>
+<li>• Complete verification when requested.</li>
+<li>• Use one account per player.</li>
+<li>• Follow casino, sportsbook and bonus rules.</li>
+</ul><br>
+<h3 style = "font-weight: bold; font-size: 24px;">Security Rules</h3>
+<ul>
+<li>• Use a strong password and secure email access.</li>
+<li>• Do not share account access, documents or payment details.</li>
+<li>• Deposit only with payment methods owned by the account holder.</li>
+<li>• Review bonus terms before activation.</li>
+<li>• Use responsible gaming tools to manage activity.</li>
+</ul><br>
+<h3 style = "font-weight: bold; font-size: 24px;">How to Reach Fiesta Slots Casino</h3>
+<ul>
+<li>• Open the casino through a mobile or desktop browser.</li>
+<li>• Log in or create a new account.</li>
+<li>• Visit the cashier, deposit funds and choose a gaming section.</li>
+<li>• Start slots, live casino, sportsbook, tournaments or promotions.</li>
+</ul><br>
+<h3 style = "font-weight: bold;font-size: 32px;">
+Fiesta Slots Casino Loyalty Program, VIP Levels and Player Rewards
+</h3>
+<p>
+Fiesta Slots Casino builds loyalty around regular activity, casino play, live dealer games, sportsbook engagement and promotional participation. We reward active players with cashback, reload bonuses, free spins, personal offers, tournament access and VIP-style advantages. Participation may begin after registration and qualifying activity inside the account. The more players enjoy casino games, the live dealer floor, sportsbook markets and promotions, the more value can become available. Our VIP experience is designed for players who appreciate personal attention and stronger rewards. Higher levels may include tailored offers, increased limits and personal account management. Levels can depend on gameplay volume, deposits, frequency and promotional participation. Rewards may appear in the account dashboard, promotion page or personal notifications. We keep the system easy to follow: play, meet offer conditions and unlock more benefits. Fiesta Slots Casino turns loyalty into ongoing extra value.
+</p>
+<br>
+<h3 style = "font-weight: bold; font-size: 24px;">Registration Conditions</h3>
+<ul>
+<li>• Create a Fiesta Slots Casino account.</li>
+<li>• Verify profile details when requested.</li>
+<li>• Make a qualifying deposit through an available cashier method.</li>
+<li>• Play slots, live casino, sportsbook markets or tournaments.</li>
+<li>• Activate offers and follow bonus rules.</li>
+<li>• Check personal notifications and the promotions area regularly.</li>
+</ul><br>
+<h3 style = "font-weight: bold; font-size: 24px;">Levels and How to Reach Them</h3>
+<ul>
+<li>• Starter — entry level after registration with access to welcome offers.</li>
+<li>• Fiesta Bronze — regular activity with free spins and reload opportunities.</li>
+<li>• Fiesta Silver — enhanced promotions and cashback up to 10% in selected campaigns.</li>
+<li>• Fiesta Gold — reload bonuses up to 100%, tournament invitations and stronger rewards.</li>
+<li>• Fiesta Platinum — personal offers, higher limits and priority-style service.</li>
+<li>• Fiesta VIP — tailored bonuses, cashback up to 25%, larger tournament opportunities and personal attention.</li>
+</ul><br>
+<h3 style = "font-weight: bold; font-size: 24px;">Available Rewards</h3>
+<ul>
+<li>• Welcome package — up to 250% and up to 1,000 free spins during active promotions.</li>
+<li>• Sports welcome — up to 100% on selected sportsbook deposits.</li>
+<li>• Reload bonus — 50–100% on repeat deposits.</li>
+<li>• Free spins — packages of 50, 150, 350 or 1,000 spins in themed campaigns.</li>
+<li>• Cashback — up to 25% on selected live casino or casino promotions.</li>
+<li>• Weekly cashback — return value up to 5,000 in selected campaigns.</li>
+<li>• VIP rewards — personal limits, special bonuses and individual support.</li>
+</ul><br></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+        <section class="">
+            <div class="container">
+                <div class="sprovidersBlock block">
+                    <h2 class="sprovidersTitle title"> Software Providers </h2>
+                    <div class="sprovidersGroup" id="providersContainer">
+                        <!-- Provider images will be dynamically inserted here --></div>
+                </div>
+            </div>
+        </section>
+
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">Fiesta Slots Casino Bonuses, Prizes and Special Offers</h2>
+                        <div class="historyDescription">
+<p>
+Fiesta Slots Casino regularly offers promotions for slots, live casino, sportsbook markets and seasonal events. Beyond loyalty rewards, players can use welcome packages, reload bonuses, free spins, cashback, sports offers and tournament prizes. New players may begin with a large welcome bonus and a major free spins package. Returning players can enjoy reload days, free spins drops, live casino cashback and weekend sports offers. We keep promotions varied so players can choose rewards that fit their favorite style of play. Slot players can join races, missions and free spins campaigns. Live casino fans can use cashback, table missions and live reloads. Sports players can enjoy free bets, odds boosts, accumulator boosts and early payout promotions. Seasonal campaigns add festive missions, tournament prizes and enhanced rewards. Fiesta Slots Casino keeps bonuses bright, frequent and easy to activate.
+</p>
+<br>
+<h3 style = "font-weight: bold; font-size: 24px;">Casino Bonuses</h3>
+<ul>
+<li>• Welcome package — up to 250% and up to 1,000 free spins.</li>
+<li>• Casino reload — up to 100% on repeat deposits.</li>
+<li>• Free spins day — up to 350 free spins during selected promo days.</li>
+<li>• Tuesday reels — up to 1,000 free spins in themed campaigns.</li>
+<li>• New slot bonus — free spins and missions for new releases.</li>
+</ul><br>
+<h3 style = "font-weight: bold; font-size: 24px;">Live Casino and Tournaments</h3>
+<ul>
+<li>• Live casino cashback — up to 25% on selected live casino activity.</li>
+<li>• Live casino reload — up to 100% on live casino deposits during active promotions.</li>
+<li>• Blackjack mission — rewards for selected live blackjack tables.</li>
+<li>• Roulette challenge — leaderboard points for qualifying roulette bets.</li>
+<li>• Game show rewards — bonus value for wheel games and live show formats.</li>
+</ul><br>
+<h3 style = "font-weight: bold; font-size: 24px;">Sportsbook and Seasonal Offers</h3>
+<ul>
+<li>• Sports welcome — up to 100% on a first sportsbook deposit.</li>
+<li>• Free bet — 5 to 20 in selected sports promotions.</li>
+<li>• Accumulator boost — enhanced returns on qualifying combo bets.</li>
+<li>• Early payout — qualifying bets may be settled before the final result.</li>
+<li>• Weekly cashback — return value up to 5,000 in selected campaigns.</li>
+<li>• Weekend sports reload — up to 50% on selected sports deposits.</li>
+</ul><br>
+<h3 style = "font-weight: bold;font-size: 32px;">
+Fiesta Slots Casino Popular Games, Live Tables and Sportsbook Categories
+</h3>
+<p>
+Fiesta Slots Casino offers a large gaming library with 8,000+ slots, table games, live casino titles and sportsbook markets. We focus on variety so every player can find fast slots, jackpot games, strategic card tables, live dealer rooms or sports events. Slots are central to our casino thanks to themes, free spins, bonus rounds, wilds, scatters and multipliers. The live casino is built for players who enjoy real table atmosphere. Roulette works well for quick decisions and simple rules. Blackjack attracts players who like strategy and hand control. Baccarat is popular for its elegant pace and straightforward bet types. Game shows add wheels, multipliers, hosts and bonus stages. The sportsbook expands Fiesta Slots Casino for players who want casino entertainment and betting in one place. We refresh the lobby regularly so new releases and popular categories are easy to find.
+</p>
+<br>
+<h3 style = "font-weight: bold; font-size: 24px;">Slots</h3>
+<ul>
+<li>• Classic slots — simple reel games with clear paylines.</li>
+<li>• Video slots — modern titles with free spins, wilds, scatters and bonus rounds.</li>
+<li>• Jackpot slots — games with large potential payouts.</li>
+<li>• Megaways-style slots — dynamic titles with many possible combinations.</li>
+<li>• Bonus-buy slots — fast access to bonus features where available.</li>
+</ul><br>
+<h3 style = "font-weight: bold; font-size: 24px;">Live Casino</h3>
+<ul>
+<li>• Live roulette — European, speed, lightning and other live formats.</li>
+<li>• Live blackjack — real-time card tables with different limits.</li>
+<li>• Live baccarat — speed, squeeze and classic baccarat formats.</li>
+<li>• Game shows — wheel games, multipliers and interactive hosted shows.</li>
+<li>• Dragon Tiger — a fast live-card format with simple betting.</li>
+</ul><br>
+<h3 style = "font-weight: bold; font-size: 24px;">Other Categories</h3>
+<ul>
+<li>• Crash games — quick multiplier-based games with instant decisions.</li>
+<li>• Video poker — poker-hand logic with online casino speed.</li>
+<li>• Keno — number-pick entertainment with fast results.</li>
+<li>• Sportsbook — football, tennis, basketball, esports, racing and live betting.</li>
+<li>• Instant games — simple rounds with quick outcomes.</li>
+</ul><br>
+<h3 style = "font-weight: bold;font-size: 32px;">
+Fiesta Slots Casino Minimum and Maximum Bets by Game Zone
+</h3>
+<p>
+At Fiesta Slots Casino, we offer flexible betting limits for different player styles. Bet amounts depend on the provider, account currency, selected slot, live table, sportsbook market and active promotions. Slot limits are usually shaped by coin value, paylines and game features. Live casino limits are shown before entering the table so players can choose the most comfortable format.
+</p>
+<br>
+<div style="width:100%; max-width:100%; overflow:hidden;">
+  <table style="width:100%; max-width:100%; border-collapse:collapse; table-layout:fixed; font-family:Arial, sans-serif; font-size:clamp(9px, 2.2vw, 14px); color:#ffffff; background:transparent;">
+    <tr>
+      <th style="width:38%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Game or Zone</th>
+      <th style="width:62%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Minimum and Maximum Bet</th>
+    </tr>
+    <tr><td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Classic slots</td><td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">0.10 to 50</td></tr>
+    <tr><td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Video slots</td><td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">0.20 to 100</td></tr>
+    <tr><td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Jackpot slots</td><td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">0.25 to 250</td></tr>
+    <tr><td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Live roulette</td><td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">0.50 to 5,000</td></tr>
+    <tr><td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Live blackjack</td><td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">1 to 10,000</td></tr>
+    <tr><td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">VIP blackjack</td><td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">10 to 25,000</td></tr>
+    <tr><td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Live baccarat</td><td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">1 to 20,000</td></tr>
+    <tr><td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Game shows</td><td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">0.10 to 5,000</td></tr>
+  </table>
+</div>
+<h3 style = "font-weight: bold;font-size: 32px;">
+Fiesta Slots Casino Events, Tournaments and Live Entertainment
+</h3>
+<p>
+Fiesta Slots Casino makes online entertainment brighter through regular promotions, live events, tournaments and seasonal campaigns. We combine slot races, leaderboard challenges, free spins drops, live casino nights, cashback days and sportsbook specials. Players can complete missions, collect points, climb rankings and unlock extra rewards. Regular events turn a standard gaming session into a festive prize-driven experience.
+</p>
+<p>
+We place special focus on live casino and show-style entertainment. Instead of a physical nightclub, we create a digital evening atmosphere through game shows, live roulette, blackjack, baccarat, wheel games and interactive challenges. Players can choose fast tables, VIP formats, game show rooms and themed live promotions. This format delivers event-style energy without travel, bookings or waiting time.
+</p>
+<p>
+Seasonal Fiesta Slots Casino events may be connected to holidays, sports finals, new slot launches and major promotion weeks. We use formats such as reload weekends, cashback weeks, tournament races, sports boosts and new game missions. A player can start with free spins, move to a live casino challenge and then join a sportsbook event. Fiesta Slots Casino keeps every day active with new ways to play and earn rewards.
+</p>
+<br>
+<h3 style = "font-weight: bold; font-size: 24px;">Fiesta Slots Casino Entertainment</h3>
+<ul>
+<li>• Slot races — slot competitions with leaderboard rankings.</li>
+<li>• Live casino nights — evening promotions for roulette, blackjack, baccarat and game shows.</li>
+<li>• Free spins drops — extra spins on selected slot games.</li>
+<li>• Cashback days — return value based on qualifying promotional activity.</li>
+<li>• Sportsbook specials — offers for popular matches and tournaments.</li>
+<li>• Game show events — hosted live entertainment with multipliers.</li>
+<li>• Jackpot challenges — events for jackpot-focused games.</li>
+<li>• New game missions — rewards for trying fresh releases.</li>
+<li>• Weekly cashback — regular campaigns returning part of activity.</li>
+<li>• Weekend reload — enhanced weekend bonus value.</li>
+</ul><br>
+<h3 style = "font-weight: bold;font-size: 32px;">
+Fiesta Slots Casino Lounges, Digital Relaxation and Online Entertainment Spaces
+</h3>
+<p>
+Fiesta Slots Casino operates online, so relaxation with us is built around freedom, mobility and 24/7 access. We do not limit players to physical bars, restaurants or hotels. Instead, we create a digital fiesta atmosphere with live casino rooms, game shows, sportsbook markets, a bonus hub and tournaments. Players can move between slots, live tables, betting markets and promotions without travel or venue schedules.
+</p>
+<p>
+Our live casino rooms, game show area, jackpot lobby and sportsbook zone create the role of digital bars and lounges. For a bright evening atmosphere, players can choose live roulette, blackjack, baccarat and hosted show games. For a calmer session, slots, keno, video poker and instant games are available. For more dynamic entertainment, players can explore crash games, sports live betting, tournaments and leaderboard missions.
+</p>
+<p>
+The hotel-style experience at Fiesta Slots Casino is replaced by a personal digital space. The account area gives access to balance, cashier, bonuses, game history, sportsbook, live casino and security settings. Players can enjoy the casino from a phone, tablet or desktop. We make online relaxation colorful, flexible and personal so Fiesta Slots Casino is always close.
+</p>
+<br>
+<h3 style = "font-weight: bold; font-size: 24px;">Fiesta Slots Casino Relaxation Areas</h3>
+<ul>
+<li>• Live casino lounge — real-time dealer tables with interactive atmosphere.</li>
+<li>• Slot lobby — 8,000+ games including slots, jackpots and table games.</li>
+<li>• Game show area — hosted live shows with wheels, bonuses and multipliers.</li>
+<li>• Sportsbook zone — sports betting, live betting and event specials.</li>
+<li>• Promo hub — welcome bonus, free spins, cashback, reloads and tournaments.</li>
+<li>• Jackpot room — games with large potential payouts.</li>
+<li>• Mobile lounge — 24/7 casino access from a phone.</li>
+<li>• VIP area — personal offers, VIP rewards and enhanced opportunities.</li>
+</ul><br></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="faq">
+            <div class="container">
+                <div class="faqBlock block">
+                    <h2 class="faqTitle title"><span>Frequently Asked Questions</span></h2>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="are_withdrawals_available"/><label
+                            class="faqLabel" for="are_withdrawals_available">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Are withdrawals available? </span></label>
+                        <div class="faqContent">
+                            <p>Yes, eligible players can request withdrawals according to platform procedures.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="is_my_personal_information_secure"/><label
+                            class="faqLabel" for="is_my_personal_information_secure">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Is my personal information secure? </span></label>
+                        <div class="faqContent">
+                            <p>Yes, SSL encryption technology helps protect personal and financial data.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="does_fiesta_slots_offer_bonuses"/><label
+                            class="faqLabel" for="does_fiesta_slots_offer_bonuses">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Does Fiesta Slots offer bonuses? </span></label>
+                        <div class="faqContent">
+                            <p>Yes, players may have access to various bonuses and promotional campaigns.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="is_customer_support_available"/><label
+                            class="faqLabel" for="is_customer_support_available">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Is customer support available? </span></label>
+                        <div class="faqContent">
+                            <p>Yes, dedicated support channels are available to assist our guests.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="can_i_access_my_account_from_different_devices"/><label
+                            class="faqLabel" for="can_i_access_my_account_from_different_devices">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Can I access my account from different devices? </span></label>
+                        <div class="faqContent">
+                            <p>Yes, your account can be accessed from compatible desktop and mobile devices.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="are_table_games_available"/><label
+                            class="faqLabel" for="are_table_games_available">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Are table games available? </span></label>
+                        <div class="faqContent">
+                            <p>Yes, our casino includes a selection of popular table games.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<footer class="footer">
+    <div class="footerContainer">
+        <div class="footerTop">
+            <div class="footerLogoContainer"><a href="https://fiesta-slots-online.com" aria-label="Main page"><img class="footer__logo"
+                                                                                                     src="_assets/images/1781520827-logo.svg" alt="" width="140"
+                                                                                                     height="48" /></a></div>
+            <div class="footerPay">
+                <div class="payBlock"><img class="payElementGrey"
+                                           src="./assets/images/footer/payment/masterCard.svg" alt="MasterCard" /><img
+                        class="payElementColor" src="./assets/images/footer/payment/masterCard--color.svg"
+                        alt="MasterCard" title="MasterCard in Fiesta Slots" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/visa.svg"
+                                           alt="Visa" /><img class="payElementColor"
+                                                             src="./assets/images/footer/payment/visa--color.svg" alt="Visa" title="Visa in Fiesta Slots" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/neteller.svg"
+                                           alt="Neteller" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/neteller--color.svg" alt="Neteller" title="Neteller in Fiesta Slots" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/skrill.svg"
+                                           alt="Skrill" /><img class="payElementColor"
+                                                               src="./assets/images/footer/payment/skrill--color.svg" alt="Skrill" title="Skrill in Fiesta Slots" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/bitcoin.svg"
+                                           alt="Bitcoin" /><img class="payElementColor"
+                                                                src="./assets/images/footer/payment/bitcoin--color.svg" alt="Bitcoin" title="Bitcoin in Fiesta Slots" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/litecoin.svg"
+                                           alt="Litecoin" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/litecoin--color.svg" alt="Litecoin" title="Litecoin in Fiesta Slots" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/ethereum.svg"
+                                           alt="Etherium" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/ethereum--color.svg" alt="Etherium" title="Etherium in Fiesta Slots" /></div>
+            </div>
+        </div>
+        <div class="footerMiddle">
+            <div class="footerOperator">
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gpwa.svg" alt="GPWA" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gpwa--color.svg"
+                        alt="GPWA" title="GPWA in Fiesta Slots" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gambleaware.svg" alt="Gamble Aware" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gambleaware--color.svg"
+                        alt="Gamble Aware" title="Gamble Aware in Fiesta Slots" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gamcare.svg" alt="Game care" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gamcare--color.svg"
+                        alt="Game care" title="Game care in Fiesta Slots" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gambling-therapy.svg" alt="Gambling Therapy" /><img
+                        class="operatorElementColor"
+                        src="./assets/images/footer/operator/gambling-therapy--color.svg" alt="Gambling Therapy" title="Gambling Therapy in Fiesta Slots" />
+                </div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gamban.svg" alt="Gamban" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gamban--color.svg"
+                        alt="Gamban" title="Gamban in Fiesta Slots" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/betblocker.svg" alt="BetBlocker" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/betblocker--color.svg"
+                        alt="BetBlocker" title="BetBlocker in Fiesta Slots" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/itech_labs.svg" alt="ITech Labs" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/itech_labs--color.svg"
+                        alt="ITech Labs" title="ITech Labs in Fiesta Slots" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/ecogra.svg" alt="Ecogra" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/ecogra--color.svg"
+                        alt="Ecogra" title="Ecogra in Fiesta Slots" /></div>
+            </div>
+        </div>
+        <div class="footerNavBlock">
+            <nav>
+                <ul class="nav__list--footer">
+                    <li class="footer__navItem"><a href="index">index</a></li>
+                    <li class="footer__navItem"><a href="app">App</a></li>
+                    <li class="footer__navItem"><a href="bonuses">Bonuses</a></li>
+                    <li class="footer__navItem"><a href="terms">Terms</a></li>
+                    <li class="footer__navItem"><a href="privacy">Privacy</a></li>
+                    <li class="footer__navItem"><a href="faq">FAQ</a></li>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="footerBottom">
+            <div class="footerBottomGroup">
+                <p class="footerBottomAge">18+</p>
+                <p class="footerBottomCopyright">Copyright © <span class="js-current-year"></span> Fiesta Slots </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    var playButtonName = "#play-icon";
+    var informationOutlineName =
+        "#information-outline";
+    var topCasinoButtonText = "Claim Bonus";
+    var welcomeBonusText = "Welcome bonus";
+    var bonusDetailsButtonText = "";
+    var playNowText = "Play now";
+    var maximumAmountText = "";
+    var wagerText = "";
+    var bonusCodeText = "";
+    var depositText = "";
+    var casinoName = "Fiesta Slots";
+</script>
+
+</body>
+</html>
